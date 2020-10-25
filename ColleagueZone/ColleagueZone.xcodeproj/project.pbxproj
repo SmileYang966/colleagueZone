@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71095CB825452BAB005A7057 /* EcoCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CB725452BAB005A7057 /* EcoCommentView.m */; };
+		71095CBB2545ABAD005A7057 /* EcoPostCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CBA2545ABAD005A7057 /* EcoPostCommentView.m */; };
+		71095CE02545AE57005A7057 /* MLEmoji_Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71095CBE2545AE57005A7057 /* MLEmoji_Expression.plist */; };
+		71095CE12545AE57005A7057 /* MLEmoji_Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71095CBF2545AE57005A7057 /* MLEmoji_Expression.bundle */; };
+		71095CE22545AE57005A7057 /* MLEmoji_ExpressionImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71095CC02545AE57005A7057 /* MLEmoji_ExpressionImage.plist */; };
+		71095CE32545AE57005A7057 /* MLEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CC12545AE57005A7057 /* MLEmojiLabel.m */; };
+		71095CE42545AE57005A7057 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CC42545AE57005A7057 /* TTTAttributedLabel.m */; };
+		71095CE52545AE57005A7057 /* NSMutableAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CC92545AE57005A7057 /* NSMutableAttributedString+MLLabel.m */; };
+		71095CE62545AE57005A7057 /* NSString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CCC2545AE57005A7057 /* NSString+MLLabel.m */; };
+		71095CE72545AE57005A7057 /* NSAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CCE2545AE57005A7057 /* NSAttributedString+MLLabel.m */; };
+		71095CE82545AE57005A7057 /* MLLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CD02545AE57005A7057 /* MLLinkLabel.m */; };
+		71095CE92545AE57005A7057 /* NSAttributedString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CD32545AE57005A7057 /* NSAttributedString+MLExpression.m */; };
+		71095CEA2545AE57005A7057 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CD42545AE57005A7057 /* MLTextAttachment.m */; };
+		71095CEB2545AE57005A7057 /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CD72545AE57005A7057 /* NSString+MLExpression.m */; };
+		71095CEC2545AE57005A7057 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CD92545AE57005A7057 /* MLExpressionManager.m */; };
+		71095CED2545AE57005A7057 /* MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CDA2545AE57005A7057 /* MLLabel.m */; };
+		71095CEE2545AE57005A7057 /* MLLabelLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71095CDC2545AE57005A7057 /* MLLabelLayoutManager.m */; };
+		71095CEF2545AE57005A7057 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71095CDF2545AE57005A7057 /* README.md */; };
 		7109B5E1254407C10082D321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109B5E0254407C10082D321 /* AppDelegate.m */; };
 		7109B5E4254407C10082D321 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109B5E3254407C10082D321 /* SceneDelegate.m */; };
 		7109B5E7254407C10082D321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109B5E6254407C10082D321 /* ViewController.m */; };
@@ -29,6 +47,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71095CB625452BAB005A7057 /* EcoCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoCommentView.h; sourceTree = "<group>"; };
+		71095CB725452BAB005A7057 /* EcoCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoCommentView.m; sourceTree = "<group>"; };
+		71095CB92545ABAD005A7057 /* EcoPostCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoPostCommentView.h; sourceTree = "<group>"; };
+		71095CBA2545ABAD005A7057 /* EcoPostCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoPostCommentView.m; sourceTree = "<group>"; };
+		71095CBD2545AE57005A7057 /* MLEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLEmojiLabel.h; sourceTree = "<group>"; };
+		71095CBE2545AE57005A7057 /* MLEmoji_Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_Expression.plist; sourceTree = "<group>"; };
+		71095CBF2545AE57005A7057 /* MLEmoji_Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLEmoji_Expression.bundle; sourceTree = "<group>"; };
+		71095CC02545AE57005A7057 /* MLEmoji_ExpressionImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MLEmoji_ExpressionImage.plist; sourceTree = "<group>"; };
+		71095CC12545AE57005A7057 /* MLEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLEmojiLabel.m; sourceTree = "<group>"; };
+		71095CC32545AE57005A7057 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		71095CC42545AE57005A7057 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		71095CC72545AE57005A7057 /* MLLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLinkLabel.h; sourceTree = "<group>"; };
+		71095CC92545AE57005A7057 /* NSMutableAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		71095CCA2545AE57005A7057 /* NSString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLLabel.h"; sourceTree = "<group>"; };
+		71095CCB2545AE57005A7057 /* NSAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		71095CCC2545AE57005A7057 /* NSString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLLabel.m"; sourceTree = "<group>"; };
+		71095CCD2545AE57005A7057 /* NSMutableAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		71095CCE2545AE57005A7057 /* NSAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		71095CCF2545AE57005A7057 /* MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabel.h; sourceTree = "<group>"; };
+		71095CD02545AE57005A7057 /* MLLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLinkLabel.m; sourceTree = "<group>"; };
+		71095CD22545AE57005A7057 /* NSString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLExpression.h"; sourceTree = "<group>"; };
+		71095CD32545AE57005A7057 /* NSAttributedString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLExpression.m"; sourceTree = "<group>"; };
+		71095CD42545AE57005A7057 /* MLTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTextAttachment.m; sourceTree = "<group>"; };
+		71095CD52545AE57005A7057 /* MLExpressionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExpressionManager.h; sourceTree = "<group>"; };
+		71095CD62545AE57005A7057 /* NSAttributedString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLExpression.h"; sourceTree = "<group>"; };
+		71095CD72545AE57005A7057 /* NSString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLExpression.m"; sourceTree = "<group>"; };
+		71095CD82545AE57005A7057 /* MLTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTextAttachment.h; sourceTree = "<group>"; };
+		71095CD92545AE57005A7057 /* MLExpressionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExpressionManager.m; sourceTree = "<group>"; };
+		71095CDA2545AE57005A7057 /* MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabel.m; sourceTree = "<group>"; };
+		71095CDC2545AE57005A7057 /* MLLabelLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabelLayoutManager.m; sourceTree = "<group>"; };
+		71095CDD2545AE57005A7057 /* MLLabelLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabelLayoutManager.h; sourceTree = "<group>"; };
+		71095CDE2545AE57005A7057 /* MLLabel+Override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLLabel+Override.h"; sourceTree = "<group>"; };
+		71095CDF2545AE57005A7057 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7109B5DC254407C10082D321 /* ColleagueZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColleagueZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7109B5DF254407C10082D321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7109B5E0254407C10082D321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +135,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71095CBC2545AE57005A7057 /* MLEmojiLabel */ = {
+			isa = PBXGroup;
+			children = (
+				71095CBD2545AE57005A7057 /* MLEmojiLabel.h */,
+				71095CBE2545AE57005A7057 /* MLEmoji_Expression.plist */,
+				71095CBF2545AE57005A7057 /* MLEmoji_Expression.bundle */,
+				71095CC02545AE57005A7057 /* MLEmoji_ExpressionImage.plist */,
+				71095CC12545AE57005A7057 /* MLEmojiLabel.m */,
+				71095CC22545AE57005A7057 /* TTTAttributedLabel */,
+				71095CC52545AE57005A7057 /* MLLabel */,
+			);
+			path = MLEmojiLabel;
+			sourceTree = "<group>";
+		};
+		71095CC22545AE57005A7057 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				71095CC32545AE57005A7057 /* TTTAttributedLabel.h */,
+				71095CC42545AE57005A7057 /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		71095CC52545AE57005A7057 /* MLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				71095CC62545AE57005A7057 /* Classes */,
+				71095CDF2545AE57005A7057 /* README.md */,
+			);
+			path = MLLabel;
+			sourceTree = "<group>";
+		};
+		71095CC62545AE57005A7057 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71095CC72545AE57005A7057 /* MLLinkLabel.h */,
+				71095CC82545AE57005A7057 /* Category */,
+				71095CCF2545AE57005A7057 /* MLLabel.h */,
+				71095CD02545AE57005A7057 /* MLLinkLabel.m */,
+				71095CD12545AE57005A7057 /* Expression */,
+				71095CDA2545AE57005A7057 /* MLLabel.m */,
+				71095CDB2545AE57005A7057 /* Helper */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71095CC82545AE57005A7057 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				71095CC92545AE57005A7057 /* NSMutableAttributedString+MLLabel.m */,
+				71095CCA2545AE57005A7057 /* NSString+MLLabel.h */,
+				71095CCB2545AE57005A7057 /* NSAttributedString+MLLabel.h */,
+				71095CCC2545AE57005A7057 /* NSString+MLLabel.m */,
+				71095CCD2545AE57005A7057 /* NSMutableAttributedString+MLLabel.h */,
+				71095CCE2545AE57005A7057 /* NSAttributedString+MLLabel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		71095CD12545AE57005A7057 /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				71095CD22545AE57005A7057 /* NSString+MLExpression.h */,
+				71095CD32545AE57005A7057 /* NSAttributedString+MLExpression.m */,
+				71095CD42545AE57005A7057 /* MLTextAttachment.m */,
+				71095CD52545AE57005A7057 /* MLExpressionManager.h */,
+				71095CD62545AE57005A7057 /* NSAttributedString+MLExpression.h */,
+				71095CD72545AE57005A7057 /* NSString+MLExpression.m */,
+				71095CD82545AE57005A7057 /* MLTextAttachment.h */,
+				71095CD92545AE57005A7057 /* MLExpressionManager.m */,
+			);
+			path = Expression;
+			sourceTree = "<group>";
+		};
+		71095CDB2545AE57005A7057 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				71095CDC2545AE57005A7057 /* MLLabelLayoutManager.m */,
+				71095CDD2545AE57005A7057 /* MLLabelLayoutManager.h */,
+				71095CDE2545AE57005A7057 /* MLLabel+Override.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		7109B5D3254407C10082D321 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +295,10 @@
 				7109B62125440D910082D321 /* EcoColleagueZoneTableViewCell.m */,
 				7109B62325440EC30082D321 /* EcoHotPostHeaderView.h */,
 				7109B62425440EC30082D321 /* EcoHotPostHeaderView.m */,
+				71095CB625452BAB005A7057 /* EcoCommentView.h */,
+				71095CB725452BAB005A7057 /* EcoCommentView.m */,
+				71095CB92545ABAD005A7057 /* EcoPostCommentView.h */,
+				71095CBA2545ABAD005A7057 /* EcoPostCommentView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +314,7 @@
 		7109B61F25440D5A0082D321 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				71095CBC2545AE57005A7057 /* MLEmojiLabel */,
 				7109B5F82544096A0082D321 /* Masonry */,
 			);
 			path = Vendors;
@@ -239,6 +379,10 @@
 			files = (
 				7109B5EF254407C20082D321 /* LaunchScreen.storyboard in Resources */,
 				7109B5EC254407C20082D321 /* Assets.xcassets in Resources */,
+				71095CE02545AE57005A7057 /* MLEmoji_Expression.plist in Resources */,
+				71095CEF2545AE57005A7057 /* README.md in Resources */,
+				71095CE12545AE57005A7057 /* MLEmoji_Expression.bundle in Resources */,
+				71095CE22545AE57005A7057 /* MLEmoji_ExpressionImage.plist in Resources */,
 				7109B5EA254407C10082D321 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,22 +394,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71095CEC2545AE57005A7057 /* MLExpressionManager.m in Sources */,
 				7109B61A2544096A0082D321 /* MASViewConstraint.m in Sources */,
 				7109B61B2544096A0082D321 /* MASViewAttribute.m in Sources */,
+				71095CED2545AE57005A7057 /* MLLabel.m in Sources */,
 				7109B5E7254407C10082D321 /* ViewController.m in Sources */,
 				7109B5E1254407C10082D321 /* AppDelegate.m in Sources */,
+				71095CE52545AE57005A7057 /* NSMutableAttributedString+MLLabel.m in Sources */,
+				71095CE92545AE57005A7057 /* NSAttributedString+MLExpression.m in Sources */,
 				7109B6172544096A0082D321 /* NSArray+MASAdditions.m in Sources */,
+				71095CE72545AE57005A7057 /* NSAttributedString+MLLabel.m in Sources */,
 				7109B6132544096A0082D321 /* ViewController+MASAdditions.m in Sources */,
 				7109B6142544096A0082D321 /* MASCompositeConstraint.m in Sources */,
 				7109B5F2254407C20082D321 /* main.m in Sources */,
+				71095CE62545AE57005A7057 /* NSString+MLLabel.m in Sources */,
+				71095CE32545AE57005A7057 /* MLEmojiLabel.m in Sources */,
+				71095CB825452BAB005A7057 /* EcoCommentView.m in Sources */,
 				7109B6182544096A0082D321 /* View+MASAdditions.m in Sources */,
+				71095CBB2545ABAD005A7057 /* EcoPostCommentView.m in Sources */,
 				7109B62225440D910082D321 /* EcoColleagueZoneTableViewCell.m in Sources */,
+				71095CEB2545AE57005A7057 /* NSString+MLExpression.m in Sources */,
 				7109B6152544096A0082D321 /* MASConstraintMaker.m in Sources */,
 				7109B6192544096A0082D321 /* MASConstraint.m in Sources */,
 				7109B6122544096A0082D321 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				71095CEA2545AE57005A7057 /* MLTextAttachment.m in Sources */,
 				7109B62525440EC30082D321 /* EcoHotPostHeaderView.m in Sources */,
 				7109B6162544096A0082D321 /* MASLayoutConstraint.m in Sources */,
 				7109B5E4254407C10082D321 /* SceneDelegate.m in Sources */,
+				71095CEE2545AE57005A7057 /* MLLabelLayoutManager.m in Sources */,
+				71095CE42545AE57005A7057 /* TTTAttributedLabel.m in Sources */,
+				71095CE82545AE57005A7057 /* MLLinkLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

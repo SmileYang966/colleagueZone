@@ -8,6 +8,7 @@
 
 #import "EcoColleagueZoneTableViewCell.h"
 #import "EcoHotPostHeaderView.h"
+#import "EcoCommentView.h"
 
 @implementation EcoColleagueZoneTableViewCell
 
@@ -25,8 +26,16 @@
         make.top.left.right.mas_equalTo(0);
     }];
     heaerView.backgroundColor = UIColor.lightGrayColor;
-    
     heaerView.dataList = [NSMutableArray array];
+    
+    EcoCommentView *commentView = [[EcoCommentView alloc]init];
+    [self addSubview:commentView];
+    [commentView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(heaerView.mas_bottom);
+        make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(100);
+    }];
+    commentView.backgroundColor = UIColor.whiteColor;
 }
 
 @end
