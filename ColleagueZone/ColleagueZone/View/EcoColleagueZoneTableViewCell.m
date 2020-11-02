@@ -9,6 +9,8 @@
 #import "EcoColleagueZoneTableViewCell.h"
 #import "EcoHotPostHeaderView.h"
 #import "EcoCommentView.h"
+#import "EcoColleagueZoneVideoView.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation EcoColleagueZoneTableViewCell
 
@@ -36,6 +38,15 @@
         make.height.mas_equalTo(100);
     }];
     commentView.backgroundColor = UIColor.whiteColor;
+    
+    EcoColleagueZoneVideoView *videoView = [[EcoColleagueZoneVideoView alloc]init];
+    [self addSubview:videoView];
+    [videoView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(commentView.mas_bottom);
+        make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(250);
+    }];
+    videoView.backgroundColor = UIColor.brownColor;
 }
 
 @end

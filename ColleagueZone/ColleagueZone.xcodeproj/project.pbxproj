@@ -44,6 +44,7 @@
 		7109B61B2544096A0082D321 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109B6112544096A0082D321 /* MASViewAttribute.m */; };
 		7109B62225440D910082D321 /* EcoColleagueZoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109B62125440D910082D321 /* EcoColleagueZoneTableViewCell.m */; };
 		7109B62525440EC30082D321 /* EcoHotPostHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109B62425440EC30082D321 /* EcoHotPostHeaderView.m */; };
+		71DFED722550C595008E401D /* EcoColleagueZoneVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DFED712550C595008E401D /* EcoColleagueZoneVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +123,8 @@
 		7109B62125440D910082D321 /* EcoColleagueZoneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoColleagueZoneTableViewCell.m; sourceTree = "<group>"; };
 		7109B62325440EC30082D321 /* EcoHotPostHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoHotPostHeaderView.h; sourceTree = "<group>"; };
 		7109B62425440EC30082D321 /* EcoHotPostHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoHotPostHeaderView.m; sourceTree = "<group>"; };
+		71DFED702550C595008E401D /* EcoColleagueZoneVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EcoColleagueZoneVideoView.h; sourceTree = "<group>"; };
+		71DFED712550C595008E401D /* EcoColleagueZoneVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcoColleagueZoneVideoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +302,8 @@
 				71095CB725452BAB005A7057 /* EcoCommentView.m */,
 				71095CB92545ABAD005A7057 /* EcoPostCommentView.h */,
 				71095CBA2545ABAD005A7057 /* EcoPostCommentView.m */,
+				71DFED702550C595008E401D /* EcoColleagueZoneVideoView.h */,
+				71DFED712550C595008E401D /* EcoColleagueZoneVideoView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				7109B5E4254407C10082D321 /* SceneDelegate.m in Sources */,
 				71095CEE2545AE57005A7057 /* MLLabelLayoutManager.m in Sources */,
 				71095CE42545AE57005A7057 /* TTTAttributedLabel.m in Sources */,
+				71DFED722550C595008E401D /* EcoColleagueZoneVideoView.m in Sources */,
 				71095CE82545AE57005A7057 /* MLLinkLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

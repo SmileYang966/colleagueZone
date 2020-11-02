@@ -26,7 +26,7 @@
         }];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.rowHeight = 300;
+        _tableView.rowHeight = 500;
     }
     return _tableView;
 }
